@@ -253,6 +253,7 @@ GameObject:
   - component: {fileID: 3824188002339762381}
   - component: {fileID: 8630089865334817848}
   - component: {fileID: 2685307909451823276}
+  - component: {fileID: 4709025520467761257}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -288,6 +289,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 8630089865334817848}
+  childs:
+  - {fileID: 7760911602017862839}
+  - {fileID: 7760911602017862833}
+  - {fileID: 7760911602017862847}
+  - {fileID: 7760911602017862837}
 --- !u!54 &8630089865334817848
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -317,6 +323,45 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7460601, y: 2.017355, z: 2.3225603}
   m_Center: {x: 0.016955972, y: 0.8986635, z: -0.06782341}
+--- !u!23 &4709025520467761257
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760911602015607751}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &7760911602015607755
 GameObject:
   m_ObjectHideFlags: 0
